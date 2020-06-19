@@ -1,0 +1,200 @@
+.navbar {
+    padding: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: hidden;
+}
+.navbar_only a {
+    margin: 1em;
+}
+
+#main_text {
+    display: flex;
+    width: 50%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: whitesmoke;  
+}
+
+.main {
+    padding: 5em;
+    background-color: #F01529;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main_left {
+    width: 50%;
+}
+
+.main_right {
+    width: 50%;
+}
+
+#building {
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: right;
+    float: right;
+}
+
+.mission {
+    padding: 2em;
+    font-size: larger;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.mission_left {
+    width: 50%;
+    float: left;
+}
+
+.mission_right {
+    width: 50%;
+    float: right;
+    align-content: stretch;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: right;
+    float: right;
+    padding-left: 13em;
+}
+
+
+.about_box {
+    border: medium;
+    border-width: 2px;
+    border-style: solid;
+    width: fit-content;
+    border-width: 3px;
+    padding: 0.5em;
+}
+.admissions {
+    padding: 1em;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+    background-color: grey;
+    color: white;
+    text-transform: uppercase;
+}
+
+#application {
+    padding: 0.5em;
+    border: white;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.news {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2em;
+    float: right;
+}
+
+.news_right {
+    padding-left: 14em;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: right;
+}
+
+.headliner {
+    padding: 0.5em;
+    width: 100%;
+
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Style the search field */
+  form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 15%;
+    background: #f1f1f1;
+  }
+  
+  /* Style the submit button */
+  form.example button {
+    float: left;
+    width: 5%;
+    padding: 10px;
+    background: rgb(219, 16, 16);
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+    background: #0b7dda;
+  }
+  
+  /* Clear floats */
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.footer {
+    background-color: darkgray;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 2em;
+}
+
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  .social {
+      flex-direction: row;
+      display: flex;
+      flex-wrap: wrap;
+  }
+
+  .contacts {
+      padding-left: 10em;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: right;
+      text-align: right;
+  }
